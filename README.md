@@ -6,14 +6,14 @@ The notebook walks through the implementation of a tree crown detection system u
 
 This project is especially relevant for ecological applications, where accurately quantifying tree counts, canopy area, and spatial distribution supports conservation and land-use decisions.
 
-Features:
+# Features:
 Fine-tuning of Mask R-CNN on aerial imagery with labeled tree crowns
 Data loading and augmentation for geospatial image formats
 Visualization of predicted masks, confidence scores, and bounding boxes
 Use of pre-trained weights for transfer learning
 Evaluation metrics for segmentation accuracy
 
-Dependencies:
+# Dependencies:
 Python 3.10+
 PyTorch
 torchvision
@@ -22,7 +22,7 @@ numpy
 matplotlib
 pycocotools (for COCO-style mask handling)
 
-Limitations:
+# Limitations:
 Performance may vary depending on the resolution and clarity of input imagery
 Requires GPU acceleration for reasonable training and inference times
 Ground truth data in COCO format is assumed for training
